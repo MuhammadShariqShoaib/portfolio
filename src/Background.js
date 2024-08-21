@@ -8,7 +8,7 @@ const BackgroundVideo = () => {
   return (
     <div className="background-video-container">
       <video autoPlay loop muted className="background-video">
-        <source src="./background1.mp4" type="video/mp4" />
+        <source  src={`${process.env.PUBLIC_URL}/background1.mp4`} type="video/mp4" />
         Your browser does not support the video tag.
       </video>
       <div className="content-overlay">
