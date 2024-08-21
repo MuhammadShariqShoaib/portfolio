@@ -1,6 +1,7 @@
 import React from "react";
 import "./BackgroundVideo.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faInstagram, faLinkedin, faTwitter } from "@fortawesome/free-brands-svg-icons";
 
 const BackgroundVideo = () => {
@@ -23,9 +24,10 @@ const BackgroundVideo = () => {
           <a href="https://www.linkedin.com/in/your-linkedin-username" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
           </a>
-          <a href="https://twitter.com/your-twitter-username" target="_blank" rel="noopener noreferrer">
-            <FontAwesomeIcon icon={faTwitter} /> Twitter
-          </a>
+          <a href="Resume.pdf" target="_blank" rel="noopener noreferrer">
+  <FontAwesomeIcon icon={faFilePdf} /> Resume
+</a>
+
         </div>
       </div>
     </div>
